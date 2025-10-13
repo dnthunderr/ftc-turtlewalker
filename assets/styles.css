@@ -1,0 +1,16 @@
+/* Minimal project styles — most visuals are handled by MUI theme/components */
+:root{--accent:#2a9d8f;--muted:#666;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#111}
+
+/* Utility text styles */
+.small{color:var(--muted);font-size:13px}
+.note{color:var(--muted);font-size:13px}
+
+/* Keep footer spacing (lightweight) */
+.site-footer{padding:16px 0;text-align:center;color:var(--muted)}
+
+/* Responsive helper for small screens used by a few components */
+@media(max-width:640px){
+	:root { }
+}
