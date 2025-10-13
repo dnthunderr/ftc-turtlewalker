@@ -35,7 +35,8 @@ function PersonList({ title, people }: { title: string; people: Person[] }){
             <ListItemAvatar>
               <Avatar alt={p.name} src={p.photo}>{!p.photo && p.name.split(' ').map(n => n[0]).join('')}</Avatar>
             </ListItemAvatar>
-            <ListItemText primary={p.name} secondary={p.role} />
+            <ListItemText primary={p.name}/>
+            {/* <ListItemText primary={p.name} secondary={p.role} /> */}
           </ListItem>
         ))}
       </List>
@@ -50,9 +51,9 @@ export default function TeamDetails(){
         Team Details
       </Typography>
 
-      <Typography variant="body1"><strong>Name:</strong> Turtle Walkers (FTC)</Typography>
-      <Typography variant="body1"><strong>Location:</strong> [Your City, State]</Typography>
-      <Typography variant="body1"><strong>Founded:</strong> [Year]</Typography>
+      <Typography variant="body1"><strong>Name:</strong> FTC Turtle Walkers</Typography>
+      <Typography variant="body1"><strong>Location:</strong> Redmond, Washington</Typography>
+      <Typography variant="body1"><strong>Founded:</strong> 2021</Typography>
       <Typography variant="body1" paragraph>
         <strong>Team Mission:</strong> Build robots, learn STEM, and serve our community through outreach.
       </Typography>

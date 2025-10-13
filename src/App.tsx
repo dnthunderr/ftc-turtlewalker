@@ -18,7 +18,7 @@ export default function App({ mode, toggleMode }: AppProps) {
     <div className="app-root">
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" sx={{ flexGrow: 1 }}>Turtle Walkers</Typography>
+          <Typography variant="h6" sx={{ flexGrow: 1 }}>FTC Turtle Walkers</Typography>
           <nav>
             <Button href="#team" color="inherit">Team</Button>
             <Button href="#awards" color="inherit">Awards</Button>
