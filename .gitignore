@@ -4,3 +4,10 @@ dist/
 .DS_Store
 .idea/
 .vscode/
+# SSH keys and config
+*.ssh
+*.ssh.pub
+.ssh/
+ssh/
+id_*
+
